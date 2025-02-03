@@ -21,12 +21,12 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5984303934"))
 PORT = os.environ.get("PORT", "8080")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Leech:Leech@cluster0.fbcoxxr.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "Leech")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Aurthur:Aurthur@cluster0.sxryu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "Arthur")
 
 # Force sub channel id, if you want enable force sub
 FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", "-1002120887442"))
-FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", "-1001977636876"))
+FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", "-1001931744144"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
